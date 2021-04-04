@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IntroduccionComponent } from './introduccion/introduccion.component';
+import { MapMergeMapComponent } from './map-merge-map/map-merge-map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroduccionComponent
+    IntroduccionComponent,
+    MapMergeMapComponent
   ],
   imports: [
     BrowserModule,
