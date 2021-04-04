@@ -7,6 +7,7 @@ import { IntroduccionComponent } from './introduccion/introduccion.component';
 import { MapMergeMapComponent } from './map-merge-map/map-merge-map.component';
 import { SkipUntilShareReplayComponent } from './skip-until-share-replay/skip-until-share-replay.component';
 import { CatchErrorComponent } from './catch-error/catch-error.component';
+import { SubjectReplayBehaviorComponent } from './subject-replay-behavior/subject-replay-behavior.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CatchErrorComponent } from './catch-error/catch-error.component';
     IntroduccionComponent,
     MapMergeMapComponent,
     SkipUntilShareReplayComponent,
-    CatchErrorComponent
+    CatchErrorComponent,
+    SubjectReplayBehaviorComponent
   ],
   imports: [
     BrowserModule,
