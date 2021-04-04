@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { fromEvent } from 'rxjs';
-import { ajax} from 'rxjs/ajax';
-import { map, mergeMap} from 'rxjs/operators';
+import { fromEvent} from 'rxjs';
+import { map, mergeMap } from 'rxjs/operators';
+import { ajax } from 'rxjs/ajax';
 
 @Component({
   selector: 'app-map-merge-map',
@@ -31,7 +31,6 @@ export class MapMergeMapComponent implements OnInit {
         return `Personaje: ${data.response.name}`;
       })
     ).subscribe(console.log);
-
   }
 
 }
