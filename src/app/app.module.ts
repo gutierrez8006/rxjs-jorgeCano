@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IntroduccionComponent } from './introduccion/introduccion.component';
 import { MapMergeMapComponent } from './map-merge-map/map-merge-map.component';
+import { SkipUntilShareReplayComponent } from './skip-until-share-replay/skip-until-share-replay.component';
+import { CatchErrorComponent } from './catch-error/catch-error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroduccionComponent,
-    MapMergeMapComponent
+    MapMergeMapComponent,
+    SkipUntilShareReplayComponent,
+    CatchErrorComponent
   ],
   imports: [
     BrowserModule,
